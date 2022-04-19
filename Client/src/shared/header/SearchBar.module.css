@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ico {
+  content: "";
+  height: 15px;
+  width: 15px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  border: 4px solid black;
+}
+.ico::before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 5px;
+  left: 8px;
+  height: 10px;
+  width: 4px;
+  transform: rotate(-45deg);
+  background-color: black;
+}

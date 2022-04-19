@@ -1,0 +1,35 @@
+.container {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto 3fr;
+}
+.left {
+  border-right: solid 1px lightskyblue;
+  padding: 10px;
+}
+.main {
+  padding: 10px;
+}
+.title {
+  padding-left: 10px;
+  grid-column: 1 / 5;
+}
+.verticalMenu {
+  width: 200px;
+}
+
+.verticalMenu a {
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.verticalMenu a:hover {
+  background-color: #eee;
+}
+
+.verticalMenu a.active {
+  background-color: cornflowerblue; /* Add a green color to the "active/current" link */
+  color: white;
+}
